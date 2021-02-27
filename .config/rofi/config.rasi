@@ -1,0 +1,4 @@
+configuration {
+	lines: 10;
+	theme: "~/.config/rofi/slate.rasi";
+}
