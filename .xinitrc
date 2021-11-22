@@ -1,3 +1,2 @@
-#xiccd &
-setxkbmap latam
+xiccd &
 exec bspwm

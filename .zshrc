@@ -17,3 +17,5 @@ PROMPT="%B%F{224}%~%f%b "
 
 alias vim=nvim
 alias config='/usr/bin/git --git-dir=/home/usuario/.cfg/ --work-tree=/home/usuario'
+
+alias ls='ls --color  --group-directories-first'

@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =0
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/usuario/.config/mpd'
+let g:netrw_dirhist_2='/home/usuario/.SoulseekQt/1'
+let g:netrw_dirhist_1='/home/usuario/.SoulseekQt'
 let g:netrw_dirhist_0='/home/usuario/.config/mpd'
 let g:netrw_dirhist_9='/home/usuario/.config/picom'
 let g:netrw_dirhist_8='/etc/systemd/system/getty@tty1.service.d'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_7='/home/usuario/.config/sxhkd'
 let g:netrw_dirhist_6='/home/usuario/.config/alacritty'
 let g:netrw_dirhist_5='/home/usuario/.config/ncmpcpp'
 let g:netrw_dirhist_4='/home/usuario/.config/bspwm'
-let g:netrw_dirhist_3='/usr/share/doc/networkmanager-dmenu-git'
-let g:netrw_dirhist_2='/home/usuario/.config/networkmanager-dmenu'
-let g:netrw_dirhist_1='/home/usuario/.config/mpd'

@@ -22,7 +22,7 @@ lyrics_directory = ~/Music/lyrics
 #
 ##### connection settings #####
 #
-mpd_host = localhost
+mpd_host = 127.0.0.1
 #
 mpd_port = 6600
 #
@@ -87,17 +87,13 @@ visualizer_in_stereo = "yes"
 visualizer_type = ellipse
 #
 #visualizer_look = "●▮"
-#visualizer_look = "🍌🍉"
-visualizer_look = "▰▰"
+#visualizer_look = "▰▰"
 #
 #visualizer_color = blue, cyan, green, yellow, magenta, red
 #
 ## Alternative subset of 256 colors for terminals that support it.
 ##
-visualizer_color = 41, 83, 119, 155, 185, 215, 209, 203, 197, 161
-#visualizer_color = 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255
-#visualizer_color = 255, 253, 251, 249, 247, 245, 243, 241, 239, 237, 235, 233
-#visualizer_color = 1
+#visualizer_color = 015, 87, 45, 39, 33, 27
 ##### system encoding #####
 ##
 ## ncmpcpp should detect your charset encoding but if it failed to do so, you
@@ -325,7 +321,8 @@ visualizer_color = 41, 83, 119, 155, 185, 215, 209, 203, 197, 161
 ## Note: You can specify third character which will be used to build 'empty'
 ## part of progressbar.
 ##
-progressbar_look = "=🍉"
+#progressbar_look = "=🍉"
+progressbar_look = "=🍓"
 #
 ## Available values: database, playlist.
 ##
