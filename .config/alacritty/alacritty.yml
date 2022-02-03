@@ -23,7 +23,7 @@ window:
   dimensions:
     columns: 67
     lines: 25
-
+  opacity: 0.94
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
   #position:
@@ -211,8 +211,8 @@ bell:
   color: '0xffffff'
 
 # Window opacity as a floating point number from `0.0` to `1.0`.
-# The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.95
+# The value `0.0` is completely transparent and `1.0` is
+#:
 # Available fields:
 #   - mouse
 #   - action
@@ -248,7 +248,6 @@ selection:
 
 # Allow terminal applications to change Alacritty's window title.
 window.dynamic_title: true
-
 cursor:
   # Values for `style`:
   #   - ▇ Block

@@ -24,10 +24,10 @@ XF86AudioMicMute
     amixer set Capture toggle
 
 XF86MonBrightnessDown
-    xbacklight -dec 1
+    xbacklight -dec 2
 
 XF86MonBrightnessUp
-    xbacklight -inc 1
+    xbacklight -inc 2
 
 # Terminal Emulator
 super + Return
