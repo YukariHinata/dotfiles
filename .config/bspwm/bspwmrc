@@ -42,7 +42,7 @@ sleep 0.1
 wmname LG3D &
 dunst &
 picom &
-feh --bg-fill --no-fehbg  ~/Pictures/wallpaper.png &
-unclutter --ignore-scrolling --timeout 10 &
+#feh --bg-fill --no-fehbg  ~/Pictures/chainseam.webp &
+#unclutter --ignore-scrolling --timeout 10 &
 sxhkd &
 polybar bspwm
